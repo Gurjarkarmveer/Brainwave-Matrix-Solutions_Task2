@@ -35,7 +35,7 @@ The model classifies user sentiment as:
 
 ---
 ## Dashboard 
-![Analysis Dashboard Screenshot](Image/Analysis Dashboard.png)  
+![Dashboard Screenshot](Image/Analysis Dashboard.png)  
 *(Replace `images/Analysis Dashboard.png` with the correct path to your screenshot in the repo)*
 
 ---
