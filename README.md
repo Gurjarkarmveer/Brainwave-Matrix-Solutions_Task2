@@ -35,7 +35,7 @@ The model classifies user sentiment as:
 
 ---
 ## Dashboard 
-
+(Image/Analysis Dashboard.png)
 ## 🔎 Methodology
 
 ### 1. Data Preprocessing
