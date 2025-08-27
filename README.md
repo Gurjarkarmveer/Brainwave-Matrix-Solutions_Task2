@@ -30,6 +30,43 @@ This project performs **Sentiment Analysis** on Twitter data using **Python, NLP
 - **Dashboarding**: Microsoft Power BI.
 
 ---
+## 🔎 Methodology
 
-## 📂 Project Structure
+### 1. Data Preprocessing
+- Dropped unnecessary columns (`Text` replaced with `Clean_Text`).
+- Converted Sentiment labels to lower case (`positive`, `negative`, `neutral`).
+- Tokenized tweets into lists (`temp_list`).
+- Removed stopwords and special characters.
+- Lemmatized words for normalization.
+
+### 2. Sentiment Analysis
+- Count of tweets by sentiment.
+- Positive vs Negative vs Neutral %.
+- Word frequency analysis using `Counter`.
+
+### 3. Visualization
+- **WordCloud** for Positive & Negative tweets.
+- **Bar Charts** for most common words by sentiment.
+- **Stacked Bar Charts** in Power BI for time-based sentiment.
+
+### 4. Dashboard in Power BI
+- KPIs: Positive %, Negative %, Average Likes, Average Retweets.
+- Filters (Slicers): Year, Month, Day, Hour, Country, Platform, Hashtags.
+- Sentiment trends with likes & retweets.
+
+---
+
+## 📊 Example Visualizations
+
+### WordCloud for Positive Tweets
+```python
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+
+words = ' '.join(
+    [item for sublist in df[df['Sentiment'].str.lower() == 'positive']['temp_list'] for item in sublist]
+)
+wordcloud = WordCloud(width=800, height=400, background_color='white').generate(words)
+
+
 
