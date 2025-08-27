@@ -2,6 +2,10 @@
 
 ## 📌 Overview
 This project performs **Sentiment Analysis** on Twitter data using **Python, NLP (Natural Language Processing), NLTK, and WordCloud** for text cleaning, preprocessing, and visualization. The cleaned dataset is later integrated with **Power BI** for interactive dashboards, KPIs, and sentiment-based insights.  
+The model classifies user sentiment as:  
+- ✅ **Positive** – When the tweet expresses a favorable or happy tone.  
+- ❌ **Negative** – When the tweet reflects criticism, dislike, or anger.  
+- ⚪ **Neutral** – When the tweet is objective, balanced, or lacks emotion.  
 
 ---
 ## ⚙️ Features
@@ -30,6 +34,8 @@ This project performs **Sentiment Analysis** on Twitter data using **Python, NLP
 - **Dashboarding**: Microsoft Power BI.
 
 ---
+## Dashboard 
+
 ## 🔎 Methodology
 
 ### 1. Data Preprocessing
