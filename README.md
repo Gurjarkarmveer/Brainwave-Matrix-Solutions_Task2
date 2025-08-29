@@ -9,7 +9,6 @@ The model classifies user sentiment as:
 - ⚪ **Neutral** – When the tweet is objective, balanced, or lacks emotion.  
 
 ---
-
 ## ⚙️ Features
 - Text Cleaning & Preprocessing (`Clean_Text` column created).  
 - Tokenization, Stopwords removal, and Lemmatization using **NLTK**.  
